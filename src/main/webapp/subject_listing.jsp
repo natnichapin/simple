@@ -17,7 +17,7 @@
 </head>
 <body style="margin-left: 20px">
 <div class="container-fluit">
-    <h3>Subject Listing:</h3>
+    <h3>Subject Listing: Request # ${count}</h3>
     <div class="row bg-light">
         <div class="col-1">No.</div>
         <div class="col-1">Subject Id</div>

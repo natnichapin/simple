@@ -1,6 +1,6 @@
-package com.example.simple3.servlet;
+package com.example.simple.servlet;
 
-import com.example.simple3.entities.GPACal;
+import com.example.simple.entities.GPACal;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;

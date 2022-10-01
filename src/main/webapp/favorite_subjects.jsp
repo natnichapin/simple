@@ -17,8 +17,8 @@
 <form action="TestRequestParameter" method="post">
     <!--When we call path of client must not have "/" -->
     <!-- บังคับกรอก ใส่ required -->
-    Your name : <input type="text" name="name"/> <br>
-    Your grade : <input type="number" name="grade"/> <br>
+    Your name : <input type="text" name="name" value="${param.name}"/> <br>
+    Your grade : <input type="number" name="grade" value="${param.grade}"/> <br>
     Favorite Subjects : <br>
     <input type="checkbox" name="fav_subjects" value="INT100"/>INT100 - IT Fundamentals<br>
     <input type="checkbox" name="fav_subjects" value="INT102"/>INT102 - Web Technology<br>

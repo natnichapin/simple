@@ -1,4 +1,4 @@
-package com.example.simple3.entities;
+package com.example.simple.entities;
 
 import lombok.*;
 

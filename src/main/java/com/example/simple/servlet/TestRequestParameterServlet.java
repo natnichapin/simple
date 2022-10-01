@@ -1,4 +1,4 @@
-package com.example.simple3.servlet;
+package com.example.simple.servlet;
 
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
@@ -37,7 +37,7 @@ public class TestRequestParameterServlet extends HttpServlet {
             System.out.println(paramName+" = "+paraValue); //display output on log
     //ถ้ามี 1 ค่า ไม่ต้อง & เวลากรอกแบบ dynamic ผ่าน link
         }
-        System.out.println("-----------------");
+        System.out.println("-----------------");+
         String paramValue[] = request.getParameterValues("fav_subjects");
         System.out.println("Favorite Subject");
         for (String value:paramValue) {

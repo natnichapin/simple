@@ -1,7 +1,7 @@
-package com.example.simple3.servlet.repositories;
+package com.example.simple.servlet.repositories;
 
 
-import com.example.simple3.entities.Subject;
+import com.example.simple.entities.Subject;
 
 import java.util.ArrayList;
 import java.util.List; // Alt+enter // ctr+alt+l format code

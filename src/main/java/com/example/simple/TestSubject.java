@@ -1,7 +1,7 @@
-package com.example.simple3;
+package com.example.simple;
 
 
-import com.example.simple3.entities.Subject;
+import com.example.simple.entities.Subject;
 
 public class TestSubject {
     public static void main(String[] args) {

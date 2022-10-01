@@ -1,6 +1,6 @@
-package com.example.simple3.servlet;
+package com.example.simple.servlet;
 
-import com.example.simple3.entities.Calculate;
+import com.example.simple.entities.Calculate;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
@@ -36,7 +36,9 @@ public class ServletAddnum extends HttpServlet {
         request.setAttribute("resultDivided",resultDivided);
         request.setAttribute("x",x);
         request.setAttribute("y",y);
-        request.getRequestDispatcher("/addnum.jsp").forward(request,response); //ส่งต่อ
+        //request.getRequestDispatcher("/addnum.jsp").forward(request,response); //ส่งต่อ
+        getServletContext().getRequestDispatcher("/addnum.jsp").forward(request,response); //ส่งต่อ
+
     }
 }
 
