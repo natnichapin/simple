@@ -35,6 +35,7 @@ public class SubjectListServlet extends HttpServlet {
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
         this.subjects = new SubjectRepository().findAll();
+        //โปรแกรมจะทำงาน Method นี้แค่ครั้งเดียว
         // สร้างแค่ครั้งแรกที่สร้าง object
         // เรียก Method init of parent
     }
